@@ -1,0 +1,25 @@
+.cell {
+  height: 75px;
+  width: 75px;
+  border: 2px solid black;
+  font-size: 70px;
+  line-height: 70px;
+  cursor: pointer;
+}
+.cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+}
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+}
+.status{
+  font-size: 2rem;
+
+}
